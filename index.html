@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rohit Verma — Data Analyst</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.png" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">Rohit Verma</div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="controls">
+        <a class="btn" href="#contact">Hire Me</a>
+        <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+            img src="assets/profile.jpg" alt="Rohit Verma" id="profilePhoto" />
+          <h1>Hi, I'm <span class="accent">Rohit Verma</span></h1>
+          <p class="lead">Data Analyst — I turn raw data into clear insights and dashboards.</p>
+          <div class="hero-ctas">
+            <a class="btn" href="#projects">See Projects</a>
+            <a class="btn ghost" href="assets/RohitVerma_Resume.pdf" download>Download Resume</a>
+          </div>
+
+          <div class="quick-info">
+            <div><strong>Location:</strong> Gwalior, Madhya Pradesh</div>
+            <div><strong>Email:</strong> <a href="mailto:rohitverma3618359@gmail.com">rohitverma3618359@gmail.com</a></div>
+            <div><strong>Alternate Email:</strong> <a href="mailto:rd8352412@gmail.com">rd8352412@gmail.com</a></div>
+            <div><strong>Phone:</strong> <a href="tel:+919575190758">+91 95751 90758</a>, <a href="tel:+916269305630">+91 62693 05630</a></div>
+            <div style="margin-top:8px;">
+              <a class="social" href="https://github.com/rohitverma123444" target="_blank">GitHub</a>
+              <a class="social" href="https://linkedin.com/in/rohit-verma-1a536b28a" target="_blank">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="photo-wrap">
+            <!-- Replace profile.jpg with your photo (800x800 recommended) -->
+            <img src="assets/profile.jpg" alt="Rohit Verma" id="profilePhoto" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p class="muted">I am a Computer Science Engineering student specializing in Data Analysis. I work with Python and analytical libraries like NumPy, Pandas, Matplotlib, and Seaborn. I have a solid foundation in statistics and enjoy converting raw data into meaningful insights and visual dashboards.</p>
+
+        <div class="about-grid">
+          <div>
+            <h3>What I do</h3>
+            <ul>
+              <li>Data cleaning & preprocessing</li>
+              <li>Exploratory Data Analysis (EDA)</li>
+              <li>Data visualization & dashboarding</li>
+              <li>Basic machine learning & reporting</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Education</h3>
+            <p>B.Tech in Computer Science & Engineering — RGPV University (Currently 5th Semester)</p>
+            <h3>Location</h3>
+            <p>Gwalior, Madhya Pradesh</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <div class="skill">
+            <h4>Python</h4>
+            <div class="bar"><div style="width:82%"></div></div>
+          </div>
+          <div class="skill">
+            <h4>NumPy</h4>
+            <div class="bar"><div style="width:80%"></div></div>
+          </div>
+          <div class="skill">
+            <h4>Pandas</h4>
+            <div class="bar"><div style="width:85%"></div></div>
+          </div>
+          <div class="skill">
+            <h4>Matplotlib</h4>
+            <div class="bar"><div style="width:78%"></div></div>
+          </div>
+          <div class="skill">
+            <h4>Seaborn</h4>
+            <div class="bar"><div style="width:75%"></div></div>
+          </div>
+          <div class="skill">
+            <h4>Statistics</h4>
+            <div class="bar"><div style="width:76%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="muted">A few projects I built while learning and experimenting — code & demos available on my GitHub.</p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>YouTube Video Downloader</h3>
+            <p>Python CLI tool to download YouTube videos. Uses pytube/requests, supports saving in multiple formats and basic error handling.</p>
+            <div class="project-links">
+              <a href="https://github.com/rohitverma123444" target="_blank">View on GitHub</a>
+              <a href="#" class="ghost" onclick="alert('Demo not linked')">Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Weather App</h3>
+            <p>Frontend web app that fetches live weather data from an API and displays temperature, humidity and forecast. Built to practice API integration and frontend JS.</p>
+            <div class="project-links">
+              <a href="https://github.com/rohitverma123444" target="_blank">View on GitHub</a>
+              <a href="#" class="ghost" onclick="alert('Demo not linked')">Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Jarvis (Voice Assistant)</h3>
+            <p>Mini voice assistant prototype using Python — voice commands for simple tasks like opening websites, getting time, and simple responses.</p>
+            <div class="project-links">
+              <a href="https://github.com/rohitverma123444" target="_blank">View on GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE / EDUCATION -->
+    <section id="experience" class="section alt">
+      <div class="container">
+        <h2>Experience & Projects</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h4>College Projects & Personal Builds</h4>
+            <span class="muted">Ongoing</span>
+            <p>Worked on data analysis mini-projects, web utilities and automation scripts. Built small end-to-end projects combining Python, APIs and visualizations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact Me</h2>
+          <p class="muted">Interested in a project, internship or collaboration? Send a message — I reply quickly.</p>
+          <p><strong>Email:</strong> <a href="mailto:rohitverma3618359@gmail.com">rohitverma3618359@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+919575190758">+91 95751 90758</a>, <a href="tel:+916269305630">+91 62693 05630</a></p>
+
+          <div class="socials">
+            <a href="https://github.com/rohitverma123444" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/rohit-verma-1a536b28a" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+
+        <div>
+          <form id="contactForm" class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+            </label>
+            <button type="submit" class="btn">Send Message</button>
+            <p id="formMsg" class="muted" style="margin-top:8px; font-size:0.95rem;"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Rohit Verma — Data Analyst. Built with ❤️.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
